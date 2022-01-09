@@ -1,0 +1,82 @@
+.hidden {
+	display: none;
+}
+
+.container {
+	position: absolute;
+	text-align: center;
+	color: white;
+	font-family: Arial;
+	width: 100%;
+	height: 100%;
+	top: 0px;
+	left: 0px;
+}
+
+.bg {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0px;
+	left: 0px;
+}
+
+.welcome #welcome-text {
+	position: absolute;
+	font-size: 64px;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.clock #clock {
+	position: absolute;
+	font-size: 150px;
+	top: 10%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.clock #toggleSeconds {
+	position: absolute;
+	top: 32%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.weather {
+	position: absolute;
+	bottom: 5px;
+	right: 10px;
+	text-align: right;
+}
+
+.quote {
+	position: absolute;
+	bottom: 5px;
+	left: 10px;
+}
+
+.todo #todo-form input {
+	position: absolute;
+	width: 25%;
+	top: 60%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background: 0;
+	border: 0;
+	border-bottom: 2px solid #fff;
+	color: #fff;
+	font-size: 24px;
+	outline: none;
+	text-align: center;
+}
+
+.todo #todo-list {
+	position: absolute;
+	width: 25%;
+	top: 63%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 24px;
+}
